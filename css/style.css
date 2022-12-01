@@ -351,3 +351,50 @@ img {
 .item-content__text {
   margin: 0;
 }
+
+/* FOOTER */
+.site-footer__container {
+  padding-top: 51px;
+  padding-bottom: 54px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.action__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 26px;
+}
+
+.action__item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.action__item-link {
+  display: inline-flex;
+  color: #21243D;
+  transition: color 0.3s ease;
+}
+
+.action__item-link:hover {
+  color: #ff6464;
+}
+
+.action__item-img {
+  display: block;
+  width: 30px;
+}
+
+.action__text {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 21px;
+}
