@@ -24,16 +24,22 @@
           <li class="sitenav__item"><a class="sitenav__link" href="#">Contact</a></li>
         </ul>
       </nav>
+      <button class="site-header__button button js-button" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="#ccc"><path stroke="#21243D" stroke-width="1.6" d="M0 1h30M0 10h30M0 19h30"/></svg>
+      </button>
+      <button class="close-button button js-button" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="30" height="20" style="enable-background:new 0 0 371.23 371.23" viewBox="0 0 371.23 371.23"><path d="M371.23 21.213 350.018 0 185.615 164.402 21.213 0 0 21.213l164.402 164.402L0 350.018l21.213 21.212 164.402-164.402L350.018 371.23l21.212-21.212-164.402-164.403z"/></svg>
+      </button>
     </div>
   </header>
 
   <!-- MAIN CONTENT -->
   <main class="main-content">
     <!-- HERO -->
-    <div class="hero">
+    <div class="hero" style="display: none;">
         <div class="hero__container container">
         <div class="hero__content">
-          <h1 class="hero__title">Hi,I am John, Creative Technologist</h1>
+          <h1 class="hero__title">Hi, I am John, Creative Technologist</h1>
           <p class="hero__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
           <a class="hero__button button" href="#">Download Resume</a>
         </div>
@@ -42,7 +48,7 @@
     </div>
 
     <!-- RECENT POSTS -->
-    <section class="posts">
+    <section class="posts" style="display: none;">
       <div class="posts__container container">
         <div class="posts__top">
           <h2 class="posts__title">Recent posts</h2>
@@ -72,7 +78,7 @@
     </section>
 
     <!-- FEATURE -->
-    <section class="feature">
+    <section class="feature" style="display: none;">
       <div class="feature__container container">
         <h2 class="feature__title">Featured works</h2>
         <ul class="feature__list">
@@ -115,7 +121,7 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="site-footer">
+  <footer class="site-footer" style="display: none;">
     <div class="site-footer__container container">
       <div class="action">
         <ul class="action__list">
@@ -140,5 +146,9 @@
       </div>
     </div>
   </footer>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="js/style.js"></script>
 </body>
 </html>
